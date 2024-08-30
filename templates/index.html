@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Health</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2024/03/whatsapp-image-2024-03-27-at-123138.jpg'); /* Path to your image */
+            background-size: cover; /* Ensure the image covers the whole background */
+            background-position: center; /* Center the background image */
+          padding: 20px;
+              background-repeat: no-repeat; /* Prevent the image from repeating */
+            color: white; /* Text color to contrast with the background */
+            height: 100vh; /* Make sure it covers the full viewport height */
+        
+        }
+        
+        
+         /* Basic styling for the page */
+  
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #f7f7f8;
+            font-size: 70px;
+            margin-bottom: 30px;
+            text-shadow: 4px 4px 6px rgb(0, 0, 0);
+        }
+
+        h2 {
+            color: #eef3f7;
+            font-size: 24px;
+            margin-bottom: 40px;
+            line-height: 1.5;
+            text-shadow: 1px 1px 3px rgb(0, 0, 0);
+        }
+
+        h2 {
+            color: #eef3f7;
+            font-size: 24px;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        p {
+            font-size: 20px;
+            color: #aacaf0;
+            margin-bottom: 50px;
+        }
+
+        button {
+            background-color: #1728c2;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #3991cb;
+        }
+
+</style>
+</head>
+<body>
+
+    <!-- Title -->
+    <h1>Guess My Health</h1>
+
+    <!-- Subtitle -->
+    <h2> Based on your lifestyle and daily practices, it is possible to predict your likelihood of developing three of the most common comorbidities in old age. 
+        Let's guess your health?  </h2>
+
+    <!-- Informative paragraph -->
+    <form action="/select_condition" method="POST">
+        <button type="submit" name="condition" value="diabetes">Diabetes</button>
+        <button type="submit" name="condition" value="stroke">Stroke</button>
+        <button type="submit" name="condition" value="heart_disease">Heart Attack Disease</button>
+        <p> <a href="https://www.calculator.net/bmi-calculator.html" target="_blank">Click here to calculate your BMI</a></p>
+        <!-- Add more buttons as needed -->
+    </form>
+    
+
+</body>
+</html>

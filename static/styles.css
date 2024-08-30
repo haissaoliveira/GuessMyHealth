@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://eshoje.com.br/wp-content/uploads/2024/04/whatsapp-image-2024-03-27-at-123139-3.jpg");
+    background-size: cover; /* Makes the background cover the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background stay fixed when scrolling */}
+
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 50px;
+    }
+
+    h1 {
+        font-size: 5rem;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
